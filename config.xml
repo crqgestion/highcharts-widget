@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CRQGestionSL" name="highcharts" version="0.1">
+  <details>
+    <title>Highcharts</title>
+    <authors>cquijano</authors>
+		<email>cquijano@crqgestion.es</email>
+    <image>img/catalogue.png</image>
+		<description>Graph for data from REST SQL</description>
+  </details>
+	<wiring>
+			<inputendpoint name="input" type="text" label="Data in" description="Graph configuration and data values input." friendcode="highcharts-graph-data" />
+  </wiring>
+	<contents src="index.html" contenttype="text/html" charset="utf-8" useplatformstyle="true" />
+  <rendering width="8" height="32" />
+</widget>
