@@ -3,13 +3,16 @@
   <details>
     <title>Highcharts</title>
     <authors>cquijano</authors>
-		<email>cquijano@crqgestion.es</email>
+    <email>cquijano@crqgestion.es</email>
     <image>img/catalogue.png</image>
-		<description>Graph for data from REST SQL</description>
+    <description>Graph for data from REST SQL</description>
+    <longdescription>README.md</longdescription>
+    <license>Creative Commons Attribution-NonCommercial 3.0 License</license>
+    <licenseurl>http://creativecommons.org/licenses/by-nc/3.0/</licenseurl>
   </details>
-	<wiring>
-			<inputendpoint name="input" type="text" label="Data in" description="Graph configuration and data values input." friendcode="highcharts-graph-data" />
+  <wiring>
+     <inputendpoint name="input" type="text" label="Data in" description="Graph configuration and data values input." friendcode="highcharts-graph-data" />
   </wiring>
-	<contents src="index.html" contenttype="text/html" charset="utf-8" useplatformstyle="true" />
+  <contents src="index.html" contenttype="text/html" charset="utf-8" useplatformstyle="true" />
   <rendering width="8" height="32" />
 </widget>
